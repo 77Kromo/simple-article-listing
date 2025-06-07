@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-live-demo-url.com">
+    <a href="https://simple-article-list.netlify.app/">
       Live Demo
     </a>
     <span> | </span>
