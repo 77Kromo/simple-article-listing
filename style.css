@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 100%;
+  margin: 25px auto;
+}
+.title {
+  text-align: center;
+  width: 80%;
+}
+.title h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  width: 100%;
+}
+.divider {
+  text-align: center;
+  color: #d9d9d9;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85%;
+  margin: 0 auto;
+}
+
+article img {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+article h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: rgb(55, 65, 81);
+  padding-bottom: 20px;
+}
+
+.date:nth-last-of-type(2) {
+  padding-bottom: 0;
+  margin: 0;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding-block-end: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+@media screen and (min-width: 412px) {
+  .title {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 640px) {
+  main {
+    margin: 30px auto;
+    gap: 40px;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+  .divider {
+    margin-bottom: 0;
+  }
+  article {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    width: 90%;
+  }
+
+  article img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin: 40px auto;
+  }
+  article {
+    width: 80%;
+  }
+
+  footer {
+    padding-bottom: 40px;
+  }
+  .title {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin: 45px auto;
+  }
+  article {
+    width: 70%;
+  }
+  .title {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    margin: 50px auto;
+  }
+  article {
+    width: 60%;
+  }
+  .title {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  main {
+    margin: 55px auto;
+  }
+   article {
+    width: 50%;
+  }
+}
