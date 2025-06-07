@@ -22,8 +22,7 @@
 </div>
 
 ## Overview
-
-![Project Screenshot](./resources/screenshot.png)
+[![Project Screenshot](./resources/screenshot.png)](https://simple-article-list.netlify.app/)
 
 A responsive article listing page featuring technology topics with clean typography and adaptive layout.
 
