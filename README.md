@@ -11,8 +11,8 @@
       Live Demo
     </a>
     <span> | </span>
-    <a href="https://your-solution-url.com">
-      Solution Code
+    <a href="https://devchallenges.io/solution/51964">
+      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenge/simple-article-listing">
@@ -110,6 +110,7 @@ simple-article-listing/
 - Frontend Mentor: [@77Kromo](https://www.frontendmentor.io/profile/77Kromo)
 - Twitter: [@kromo772004](https://x.com/kromo772004)
 - LinkedIn: [Richmond](https://www.linkedin.com/in/krowey-richmond-borquaye77/)
+- DevChallenges: [@77Kromo](https://devchallenges.io/portfolio/77Kromo)
 
 ## Acknowledgments
 
